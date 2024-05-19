@@ -4,8 +4,7 @@ function showSection(section) {
 
     switch(section) {
         case 1:
-            content = `
-            <h2>Desarrollo web Front-end</h2>
+            content = `<h2>Desarrollo web Front-end</h2>
             <p>El desarrollo web front-end se refiere a la práctica de construir y diseñar la interfaz de usuario de un sitio web o aplicación. Esto implica trabajar con tecnologías del lado del cliente, como HTML, CSS y JavaScript, para crear páginas web interactivas y visualmente atractivas.</p>
             <p>La expresión "front-end" tiene su origen en el principio de separación de preocupaciones, el cual aboga por establecer una clara distinción entre la interfaz de usuario (front-end) y la lógica del servidor (back-end) en una aplicación. Esta separación facilita la creación de un código más modular y fácil de mantener.</p>
             <p>Características:</p>
@@ -34,16 +33,19 @@ function showSection(section) {
         `;
             break;
         case 2:
-            content = "Amarillo";
+            content = "<h1>Conceptos básicos de HTML</h1>HTML no es un lenguaje de programación; es un <em>lenguaje de marcado</em> que define la estructura de tu contenido. HTML consiste en una serie de elementos que usarás para encerrar diferentes partes del contenido para que se vean o comporten de una determinada manera. Las etiquetas de encierre pueden hacer de una palabra o una imagen un hipervínculo a otro sitio, se pueden cambiar palabras a cursiva, agrandar o achicar la letra, etc. Por ejemplo, toma la siguiente línea de contenido:";
             break;
         case 3:
-            content = "Verde";
+            content = "<h1>CSS</h1><p>Las Hojas de estilo en cascada (del ingles <em>Cascading Stylesheets</em> es la siguiente tecnología que aprenderemos después de. Mientras que HTML se utiliza para definir la estructura y la semántica del contenido, CSS se usa para darle estilo y posicionarlo visualmente. CSS se puede usar, por ejemplo, para cambiar la fuente, el color, el tamaño y el espaciado del contenido, para formar multiples columnas, añadir animaciones y otros elementos decorativos.</p>";
             break;
         case 4:
             content = "Azul";
             break;
+        case 5:
+            content = "Morado";
+            break;
         default:
-            content = "Blanco";
+            content = "";
     }
 
     mainContent.innerHTML = content;
