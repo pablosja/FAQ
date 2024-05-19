@@ -39,10 +39,10 @@ function showSection(section) {
             content = "<h1>CSS</h1><p>Las Hojas de estilo en cascada (del ingles <em>Cascading Stylesheets</em> es la siguiente tecnología que aprenderemos después de. Mientras que HTML se utiliza para definir la estructura y la semántica del contenido, CSS se usa para darle estilo y posicionarlo visualmente. CSS se puede usar, por ejemplo, para cambiar la fuente, el color, el tamaño y el espaciado del contenido, para formar multiples columnas, añadir animaciones y otros elementos decorativos.</p>";
             break;
         case 4:
-            content = "Azul";
+            content = "<h1>JavaScript</h1><p>JavaScript es un lenguaje de programación que te permite implementar cosas complejas en páginas web. Cada vez que una página web hace algo más que sentarse ahí y mostrar información estática para que la veas — mostrando actualizaciones de contenido oportunas, mapas interactivos, gráficos animados 2D/3D, desplazando máquinas reproductoras de video, o más, puedes apostar que probablemente JavaScript esté involucrado .</p>";
             break;
         case 5:
-            content = "Morado";
+            content = "<h1>¿Qué es el desarrollo back end?</h1><p>Parte del desarrollo que se dedica a la programación de los diferentes componentes de un sitio web (páginas, formularios, funcionalidades, bases de datos...) para que éste funcione correctamente. Se trata de la parte lógica que el usuario no ve, pero que es fundamental para que los elementos se visualicen correctamente. En el Back end se trabaja con diferentes lenguajes de programación como Java, PHP, MySQL, etcétera.</p>";
             break;
         default:
             content = "";
